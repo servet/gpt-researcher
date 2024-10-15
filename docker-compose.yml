@@ -9,7 +9,7 @@ services:
       LANGCHAIN_API_KEY: ${LANGCHAIN_API_KEY}
     restart: always
     ports:
-      - 443:8000
+      - 8000:8000
   gptr-nextjs:
     pull_policy: build
     image: gptresearcher/gptr-nextjs
